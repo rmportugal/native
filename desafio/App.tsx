@@ -5,8 +5,8 @@ import Principal from "./src/Screens/Principal";
 
 export default function App() {
   return (
-    // <Home/>
-    <Login/>
+    <Home/>
+    // <Login/>
     // <Principal/>
   );
 }

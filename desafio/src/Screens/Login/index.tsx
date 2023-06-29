@@ -11,6 +11,7 @@ import {
   SignUpText,
   SignUpContainer,
   ButtonHeader,
+  SignUpButton, ColoredText
   } from "./styles";
 import Logo from "../../../assets/Pictures/Logoazul.png";
 import Google from "../../../assets/Pictures/Google.png";
@@ -30,7 +31,7 @@ const Login = () => {
         <ImageHeader source={Logo} />
       </HeaderContainer>
       <LoginContainer>
-        <TextLogin> Welcome back! Log in to see the latest.</TextLogin>
+        <TextLogin>Welcome back! Log in to see the latest.</TextLogin>
 
         <WhiteButton>
           <ButtonImage source={Google} />
@@ -47,7 +48,8 @@ const Login = () => {
       </LoginContainer>
 
       <SignUpContainer>
-        <SignUpText>Don't have an account? Sign up</SignUpText>
+        <SignUpText>Don't have an account? </SignUpText>
+        <SignUpButton><ColoredText>Sign up</ColoredText></SignUpButton>
       </SignUpContainer>
     </>
   );

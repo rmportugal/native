@@ -16,25 +16,26 @@ background-color:#15202B;
 ;`;
 
 export const ImageHeader = styled.Image`
-  width: 35px;
-  height: 25px;
+  width: 25px;
+  height: 20px;
   margin-left:35%
   margin-top:5%
 `;
 
 export const ButtonHeader = styled.Image`
-width: 35px;
-height: 25px;
-margin-left:1%
+width: 25px;
+height: 20px;
+margin-left:4%
 margin-top:5%
 ;`;
 
 export const TextLogin = styled.Text`
   font-size: 30px;
   font-weight: bold;
-  margin: 20px;
+  margin: 30px;
   padding-left:10px
   padding-right:10px;
+  padding-bottom:30px;
   color: #ffffff;
 `;
 
@@ -62,20 +63,34 @@ export const TextButton = styled.Text`
 ;}`;
 
 export const OrText = styled.Text`
-  color: #0e0e10;
-  font-size: 16px;
+  color: #ffffff;
+  font-size: 14px;
   text-align: center;
   margin: 5px;
+  opacity:0.5
 `;
 
 export const SignUpContainer = styled.View`
+  flex-direction:row;
   background-color: #15202b;
 `;
 export const SignUpText = styled.Text`
-  justify-content: flex-end
   align-self: flex-start
-  font-size: 14px;
+  font-size: 14.5px;
   color: #ffffff;
-  margin:30px
   text-align: center;
+  margin-bottom:30px
+  margin-top:20px
+  margin-left:30px
+  opacity:0.5
 ;`;
+
+export const ColoredText = styled.Text`
+font-size: 14.5px;
+color: #1d9bf0;
+align-self: flex-start
+margin-top:20px
+;`
+
+export const SignUpButton = styled.TouchableOpacity`
+;`
